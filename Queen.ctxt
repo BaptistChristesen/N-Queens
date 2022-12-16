@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Queen
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=gr\ loc
+comment2.target=void\ putSelfInGrid(info.gridworld.grid.Grid,\ info.gridworld.grid.Location)
+comment3.params=
+comment3.target=void\ removeSelfFromGrid()
+comment4.params=
+comment4.target=int\ getNumQueensInGrid()
+numComments=5

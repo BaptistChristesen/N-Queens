@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NQueensWorld
+comment1.params=
+comment1.target=NQueensWorld()
+comment1.text=\n\ Constructs\ an\ N\ Queen\ world\ with\ a\ default\ grid.\n
+comment2.params=grid
+comment2.target=NQueensWorld(info.gridworld.grid.Grid)
+comment2.text=\n\ Constructs\ an\ N\ Queen\ world\ with\ a\ given\ grid.\n\ @param\ grid\ the\ grid\ for\ this\ world.\n
+comment3.params=
+comment3.target=void\ show()
+comment4.params=
+comment4.target=void\ step()
+numComments=5

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=NQueens
+comment1.params=n
+comment1.target=NQueens(int)
+comment1.text=\n\ Constructs\ an\ object\ that\ solves\ the\ N\ Queens\ Problem.\n\ @param\ n\ the\ number\ of\ queens\ to\ be\ placed\ on\ an\ n\ by\ n\ board\n
+comment2.params=
+comment2.target=void\ solve()
+comment2.text=\n\ Kicks\ off\ the\ recursion\ to\ solve\ the\ N\ Queens\ Problem.\n
+comment3.params=q
+comment3.target=boolean\ placeQueen(int)
+comment3.text=\n\ Attempts\ to\ place\ the\ qth\ queen\ on\ the\ board.\n\ Precondition\:\ 0\ <\=\ q\ <\ numQueens()\n\ @param\ q\ row\ index\ of\ next\ queen\ to\ place\n\ @returns\ true\ if\ non-attacking\ queens\ were\ placed\ in\ all\ rows;\n\ \ \ \ \ \ \ \ \ \ false\ otherwise.\n\n\ This\ queen\ needs\ to\ be\ placed\ in\ row\ q.\ \ The\ only\ question\ is\n\ which\ column\ she\ will\ be\ in.\ \ placeQueen\ needs\ to\ try\ each\ column\n\ in\ turn.\ \ Whenever\ it\ finds\ a\ column\ that\ could\ work,\ it\ puts\ the\n\ queen\ there\ and\ then\ recurses\ to\ place\ the\ rest\ of\ the\ queens.\n
+comment4.params=loc
+comment4.target=boolean\ locationIsOK(info.gridworld.grid.Location)
+comment4.text=\n\ Determines\ whether\ a\ queen\ can\ be\ placed\ at\ the\ specified\n\ location.\n\ @param\ loc\ the\ location\ to\ test\n\ @returns\ true\ if\ this\ location\ is\ not\ attached\ by\ any\ queen\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ above\ it\ (with\ a\ smaller\ row).\ \ ie\ there\ is\ no\ queen\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ the\ same\ column\ or\ either\ diagonal;\n\ \ \ \ \ \ \ \ \ \ false\ otherwise.\n\n\ locationIsOK\ verifies\ that\ another\ queen\ can't\ attack\ this\n\ location.\ \ Note\ that\ when\ this\ method\ is\ called,\ only\ queens\n\ in\ previous\ rows\ have\ been\ placed.\n
+comment5.params=loc
+comment5.target=void\ addQueen(info.gridworld.grid.Location)
+comment5.text=\n\ Adds\ a\ queen\ at\ the\ specified\ location\ and\ re-shows\ the\ world.\n\ Precondition\:\ loc\ is\ valid\ location\ in\ grid\n\ @param\ loc\ the\ location\ where\ the\ queen\ should\ be\ placed\n
+comment6.params=loc
+comment6.target=void\ removeQueen(info.gridworld.grid.Location)
+comment6.text=\n\ Removes\ a\ queen\ at\ the\ specified\ location\ and\ re-shows\ the\ world.\n\ Precondition\:\ loc\ is\ valid\ location\ in\ grid\n\ @param\ loc\ the\ location\ where\ the\ queen\ should\ be\ removed\n
+numComments=7
